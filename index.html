@@ -84,6 +84,20 @@
       transform: translateY(-3px);
       box-shadow: 0 8px 20px rgba(0,0,0,0.3);
     }
+    .link-button {
+      position: relative;          /* Necesario para posicionar el icono */
+      padding-left: 50px;           /* Reserva espacio a la izquierda para el icono */
+      padding-right: 50px;          /* Reserva espacio a la derecha para balancear */
+      text-align: center;           /* Centra el texto */
+    }
+    .link-button img {
+      position: absolute;
+      left: 12px;                   /* Distancia del borde izquierdo */
+      top: 50%;                     /* Posición vertical centrada */
+      transform: translateY(-50%);
+      height: 28px;                 /* Tamaño del icono */
+      margin: 0 !important;         /* Anula el margin inline */
+    }
   </style>
 </head>
 <body>
@@ -110,6 +124,7 @@
   </div>
 </body>
 </html>
+
 
 
 
