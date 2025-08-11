@@ -12,45 +12,63 @@
       background: linear-gradient(135deg, #ff00cc, #333399);
       color: white;
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
       min-height: 100vh;
-      text-align: center;
       padding: 20px;
     }
+    .container {
+      background-color: #f5f0e6; /* Beige claro */
+      color: #333;
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    }
+    img {
+      max-width: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 4px solid white;
+    }
     h1 {
-      font-size: 2.5rem;
+      font-size: 2rem;
       margin-bottom: 10px;
     }
     p {
-      font-size: 1.1rem;
-      margin-bottom: 30px;
-      opacity: 0.9;
+      font-size: 1rem;
+      margin-bottom: 25px;
+      opacity: 0.85;
     }
     .btn {
-      background: white;
-      color: #333399;
+      background: linear-gradient(135deg, #ff00cc, #333399);
+      color: white;
       padding: 15px 30px;
       border-radius: 50px;
       font-weight: bold;
       text-decoration: none;
-      display: inline-block;
+      display: block;
       margin: 10px 0;
       transition: transform 0.2s, box-shadow 0.2s;
     }
     .btn:hover {
       transform: translateY(-3px);
-      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     }
   </style>
 </head>
 <body>
-  <h1>PurpleRain.art</h1>
-  <p>Sound & visuals created with AI & Blender.<br>Get inspired, dream & create ✨</p>
+  <div class="container">
+    <img src="TU_IMAGEN.jpg" alt="Profile">
+    <h1>PurpleRain.art</h1>
+    <p>Sound & visuals created with AI & Blender.<br>Get inspired, dream & create ✨</p>
 
-  <a href="https://instagram.com" class="btn">Instagram</a>
-  <a href="https://youtube.com" class="btn">YouTube</a>
-  <a href="https://ko-fi.com" class="btn">Support me on Ko-fi</a>
+    <a href="https://instagram.com" class="btn">Instagram</a>
+    <a href="https://youtube.com" class="btn">YouTube</a>
+    <a href="https://ko-fi.com" class="btn">Support me on Ko-fi</a>
+  </div>
 </body>
 </html>
+}
