@@ -68,17 +68,12 @@
     }
     /* Botones grandes */
     .link-button {
-      display: block;
-      background: linear-gradient(135deg, #ff00cc, #333399);
-      color: white;
-      text-decoration: none;
-      padding: 14px 14px 14px 0px;
-      margin: 10px 0;
-      border-radius: 12px;
-      font-size: 1rem;
-      font-weight: bold;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-      transition: transform 0.2s, box-shadow 0.2s;
+    display: block;              /* ya lo tienes */
+    width: 100%;                 /* ocupar todo el ancho del contenedor */
+    box-sizing: border-box;
+    position: relative;          /* necesario para posicionar el icono absolut. */
+    padding: 14px 56px;          /* arriba/abajo 14px, derecha/izq 56px (ajusta) */
+    text-align: center;          /* mantiene el texto centrado visualmente */
     }
     .link-button:hover {
       transform: translateY(-3px);
@@ -110,6 +105,7 @@
   </div>
 </body>
 </html>
+
 
 
 
